@@ -26,7 +26,6 @@ public class AddPlayerInGameUseCase {
        var newGame =  playerRepository.findById(idPlayer).
                            map(  player1 -> {
 
-
                                var listPlayersId = game.getPlayerModelList();
 
 
